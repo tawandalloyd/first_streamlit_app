@@ -55,7 +55,7 @@ if streamlit.button('Get Fruit List'):
   streamlit.dataframe(my_data_rows)
 
 #don't run anything while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 def insert_row_snowflake(new_fruit):
   with my_cnx.cursor() as my_cur:
